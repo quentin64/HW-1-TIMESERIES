@@ -1,6 +1,6 @@
 library(fBasics)
 library(quantmod)
-# HELLO kait
+
 # COSAN LIMITED equity price
 getSymbols("CZZ",from="2017-09-22",to="2019-09-22")
 dim(CZZ) 
